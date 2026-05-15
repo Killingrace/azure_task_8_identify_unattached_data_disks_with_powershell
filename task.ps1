@@ -12,7 +12,7 @@
 
 # sudo umount /dev/sdc1 /datadrive
 
-Connect-AzAccount -TenantId <my-taenant-id>
+Connect-AzAccount -TenantId <my-tenant-id>
 
 $resourceGroup = "mate-azure-task-5"
 
