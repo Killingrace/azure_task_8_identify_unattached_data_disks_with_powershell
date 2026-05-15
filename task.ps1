@@ -12,6 +12,8 @@
 
 # sudo umount /dev/sdc1 /datadrive
 
+Connect-AzAccount -TenantId <my-taenant-id>
+
 $resourceGroup = "mate-azure-task-5"
 
 $vms = Get-AzVM -ResourceGroupName $resourceGroup
